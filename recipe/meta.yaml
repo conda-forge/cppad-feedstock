@@ -10,7 +10,7 @@ source:
   sha256: 1ef34ff1deead4757a5ba14912fcd54ad8fb36ba0733bc1b9efc256b278a28f4
 
 build:
-  number: 0
+  number: 1
   # No ABI policy documented, let's be conservative 
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}
@@ -21,6 +21,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make  # [linux]
+
 test:
   commands:
     - test -d ${PREFIX}/include/cppad  # [unix]
