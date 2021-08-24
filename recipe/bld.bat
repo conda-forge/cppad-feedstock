@@ -5,6 +5,7 @@ cmake ^
     -G "NMake Makefiles" ^
     -DCMAKE_INSTALL_PREFIX=%LIBRARY_PREFIX% ^
     -DCMAKE_PREFIX_PATH=%LIBRARY_PREFIX% ^
+    -Dcppad_debug_which="debug_none" ^
     -DCMAKE_BUILD_TYPE=Release ^
     -DCMAKE_INSTALL_LIBDIR=lib ^
     -DBUILD_SHARED_LIBS=ON ^
