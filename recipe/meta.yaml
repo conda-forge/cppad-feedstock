@@ -10,7 +10,7 @@ source:
   sha256: 429337cced66dfe007a7806563766421cac08b76864bcd5a903d8beb286d8a81
 
 build:
-  number: 1
+  number: 2
   # No ABI policy documented, let's be conservative 
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}
