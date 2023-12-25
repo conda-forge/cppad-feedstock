@@ -40,7 +40,7 @@ about:
   summary: CppAD - A Package for Differentiation of C++ Algorithms
 
   dev_url: https://github.com/coin-or/CppAD
-  doc_url: https://coin-or.github.io/CppAD/doc/cppad.htm
+  doc_url: https://cppad.readthedocs.io/
 
 extra:
   recipe-maintainers:
