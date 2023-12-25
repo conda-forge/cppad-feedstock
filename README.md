@@ -1,17 +1,17 @@
-About cppad
-===========
+About cppad-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cppad-feedstock/blob/main/LICENSE.txt)
 
 Home: https://coin-or.github.io/CppAD
 
 Package license: EPL-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cppad-feedstock/blob/main/LICENSE.txt)
-
 Summary: CppAD - A Package for Differentiation of C++ Algorithms
 
 Development: https://github.com/coin-or/CppAD
 
-Documentation: https://coin-or.github.io/CppAD/doc/cppad.htm
+Documentation: https://cppad.readthedocs.io/
 
 Current build status
 ====================
@@ -160,7 +160,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
