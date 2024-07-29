@@ -1,5 +1,5 @@
 {% set name = "cppad" %}
-{% set version = "20240000.5" %}
+{% set version = "20240000.6" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/coin-or/CppAD/archive/{{ version }}.tar.gz
-  sha256: bd52f4b56139d1e4c92dbfe1d71253b87d1e88cc3e210c27cbef5e06bad6ba9f
+  sha256: 10442c13eda016eef9b55d623efc28442c002b8d8b0bada52f3fbc3135f3cab3
 
 build:
   number: 0
