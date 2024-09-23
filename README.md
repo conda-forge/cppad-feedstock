@@ -3,9 +3,9 @@ About cppad-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cppad-feedstock/blob/main/LICENSE.txt)
 
-Home: https://coin-or.github.io/CppAD
+Home: https://cppad.readthedocs.io
 
-Package license: EPL-2.0
+Package license: EPL-2.0 OR GPL-2.0-or-later
 
 Summary: CppAD - A Package for Differentiation of C++ Algorithms
 
