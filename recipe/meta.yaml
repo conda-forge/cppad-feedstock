@@ -1,5 +1,5 @@
 {% set name = "cppad" %}
-{% set version = "20240000.7" %}
+{% set version = "20250000.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/coin-or/CppAD/archive/{{ version }}.tar.gz
-  sha256: b3cdc7e18fe3cb2bd427be4abb264c3c58bbb3bd5f88a4244a92c34f893dbab7
+  sha256: 5439b4c972ed16f1583f2f41f20bd958019558506626b0e916a3e84bbf06cbc5
 
 build:
-  number: 1
+  number: 0
   # No ABI policy documented, let's be conservative 
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}
@@ -21,8 +21,9 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
+    - pkg-config
     - cmake
-    - make  # [linux]
+    - make  # [unix]
 
 test:
   commands:
