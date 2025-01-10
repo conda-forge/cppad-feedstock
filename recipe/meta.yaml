@@ -23,7 +23,7 @@ requirements:
     - {{ compiler('cxx') }}
     - pkg-config
     - cmake
-    - make  # [linux]
+    - make  # [unix]
 
 test:
   commands:
