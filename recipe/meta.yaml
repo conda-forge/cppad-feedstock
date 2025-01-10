@@ -21,6 +21,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
+    - pkg-config
     - cmake
     - make  # [linux]
 
